@@ -1,5 +1,5 @@
 {% set name = "omnicloudmask" %}
-{% set version = "1.6.0" %}
+{% set version = "1.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/omnicloudmask-{{ version }}.tar.gz
-  sha256: ccec81b44f97251faf6eac77d0f6c4f646444d298d1803089bb1922ed6b13792
+  sha256: 5583b9bb1e46469835bb61074c47a6037639e11323c9568bd87f059db4a7c1e9
 
 build:
   noarch: python
